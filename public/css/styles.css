@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,300;1,500&family=Raleway:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,500&family=Work+Sans:wght@300;400;700&display=swap');
+
+/*
+Tamaños tipograficos: 
+
+-Cuerpos de texto: 12px
+-Titulares (Basado en tu última visita/Ofertas): 24px
+-Precios: 18px
+-Descuentos: 16px
+-Descripciones: 16px
+
+*/
+*{
+    box-sizing: border-box;
+}
+
+
+:root{
+    --colorAmarillo :  #EAC926;
+    --colorAzul :  #03264C;
+    --colorCeleste :  #1259c3;
+    --colorGrisOscuro :  #666;
+    --colorGrisClaro :  #ebebeb;
+    --colorVerde :  #39b54a;
+    --tipografiaGeneral : 'Roboto';
+}
+
+body{
+    background-color: var(--colorAmarillo);
+    font-family: var(--tipografiaGeneral);
+    font-size: 12px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+.busqueda{
+    background-color: var(--colorGrisClaro);
+}
+
+.burguer{
+    background-color: var(--colorCeleste);
+}
+
+div.burguer-menu{
+    text-align: center;
+    
+}
+
+p.compra{
+    text-align: center;
+}
+
+ul{
+    padding: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+p.precios{
+    font-size: 18px;
+}
+
+p.descuentos{
+    font-size: 16px;
+}
+
+p.descripciones{
+    font-size: 16px;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+}
+
+p.copy{
+    text-align: left;
+    color: var(--colorGrisClaro);
+}
