@@ -1,20 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,300;1,500&family=Raleway:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,500&family=Work+Sans:wght@300;400;700&display=swap');
 
-/*
-Tamaños tipograficos: 
-
--Cuerpos de texto: 12px
--Titulares (Basado en tu última visita/Ofertas): 24px
--Precios: 18px
--Descuentos: 16px
--Descripciones: 16px
-
-*/
-*{
-    box-sizing: border-box;
-}
-
-
 :root{
     --colorAmarillo :  #EAC926;
     --colorAzul :  #03264C;
@@ -25,8 +10,13 @@ Tamaños tipograficos:
     --tipografiaGeneral : 'Roboto';
 }
 
+*{
+    box-sizing: border-box;
+}
+
+/* ESTILOS GENERALES */
+
 body{
-    background-color: var(--colorAmarillo);
     font-family: var(--tipografiaGeneral);
     font-size: 12px;
 }
@@ -35,17 +25,34 @@ h2{
     font-size: 24px;
 }
 
+/* ESTILOS HEADER */
+
+header{
+    background-color: var(--colorAmarillo);
+}
+
 .busqueda{
     background-color: var(--colorGrisClaro);
+    border:1px solid var(--colorGrisOscuro);
+    font-size: 16px;
+}
+
+button.btn-burguer{
+    background-color:var(--colorCeleste);
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .burguer{
-    background-color: var(--colorCeleste);
+    font-size: 15px;
+    color: white;
 }
 
-div.burguer-menu{
-    text-align: center;
-    
+/* ESTILOS MAIN */
+
+main{
+    background-color: var(--colorGrisClaro);
 }
 
 p.compra{
@@ -77,12 +84,22 @@ p.descripciones{
     font-size: 16px;
 }
 
+/* ESTILOS FOOTER */
+
+.icon{
+    color: var(--colorCeleste);
+    font-size: 20px;
+}
+
 footer{
     background-color: white;
     text-align: center;
 }
 
+footer p{
+    color: var(--colorGrisOscuro);
+}
+
 p.copy{
     text-align: left;
-    color: var(--colorGrisClaro);
 }
