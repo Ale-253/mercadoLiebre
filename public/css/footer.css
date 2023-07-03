@@ -1,0 +1,31 @@
+footer {
+    text-align: center;
+}
+
+/* footer .contenedor-footer {} */
+
+footer .texto-footer {
+    margin-bottom: 35px;
+}
+
+footer .texto-footer i {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: var(--celeste);
+}
+
+footer .texto-footer h5 {
+    color: var(--gris-oscuro);
+    font-size: 15px;
+}
+
+footer .texto-footer p {
+    color: var(--gris-oscuro);
+    font-size: 15px;
+}
+
+footer .contenedor-footer p.copy {
+    color: var(--gris-oscuro);
+    font-size: 12px;
+    text-align: left;
+}

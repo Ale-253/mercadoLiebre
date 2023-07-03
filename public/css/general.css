@@ -1,0 +1,43 @@
+* {
+    font-family: var(--tipografia);
+    margin: 0;
+}
+
+a {
+    color: rgb(58, 58, 58);
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+h2 {
+    text-align: center;
+    color: var(--gris-oscuro);
+    padding: 10px;
+}
+
+article{
+    width: 100%;
+}
+
+img.producto {
+    width: 90%;
+    padding-left: 5%;
+}
+
+.precios {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.descuentos {
+    font-size: 16px;
+}
+
+.descripciones {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
