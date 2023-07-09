@@ -1,5 +1,5 @@
 # mercadoLiebre
-## *Rama Adaptativo*
+## *Rama: Adaptativo*
 
 · [Master](https://github.com/Ale-253/mercadoLiebre/tree/master)  
 · [Estructura](https://github.com/Ale-253/mercadoLiebre/tree/estructura)  
