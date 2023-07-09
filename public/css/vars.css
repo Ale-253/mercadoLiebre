@@ -1,4 +1,5 @@
 :root {
+  
   /* FUENTES */
   --tipografia: 'Roboto', sans-serif;
 
@@ -17,4 +18,5 @@
   --precios: 18px;
   --descuentos: 16px;
   --descripciones: 16px;
+  
 }

@@ -6,44 +6,43 @@ header {
 /* LOGO */
 
 header figure {
-    width: 200px;
+    width: 100%;
+    margin-bottom: 5px;
 }
 
 header figure img {
-    width: 100%;
+    width: 45%;
 }
 
 /* BUSCADOR */
 
-/* header form.contenedor-buscador {} */
-
-header form.contenedor-buscador input {
-    width: 70%;
-    display: block;
-    font-size: 12px;
+header form.contenedor-buscador {
+    display: inline;
 }
 
-header form.contenedor-buscador button {
+/* header form.contenedor-buscador input {} */
+
+header form.contenedor-buscador button.btn-busqueda {
     margin-top: 2px;
     border-radius: 3px;
     padding: 2px;
 }
 
-/* header form.contenedor-buscador button i {} */
+/* header form.contenedor-buscador button.btn-busqueda i{} */
 
 /* COMPRA */
 
 header .contenedor-compra {
     text-align: center;
-    margin-top: 8px;
+    margin-top: 15px;
     margin-bottom: 8px;
+    font-size: 12px;
 }
 
 /* header .contenedor-compra i {} */
 
 header .contenedor-compra span.text {
-    font-weight: 600;
-    font-size: 12px;
+    font-weight: 400;
 }
 
 /* MENU */
@@ -62,9 +61,7 @@ header .contenedor-menu ul {
 
 /* OPCIONES */
 
-header .contenedor-opciones {
-    margin-top: 20px;
-}
+/* header .contenedor-opciones {} */
 
 header .contenedor-opciones ul {
     padding: 0;
@@ -90,7 +87,9 @@ header button.burguer-menu {
     background-color: var(--celeste);
     color: var(--gris-claro);
     border-radius: 4px;
-    padding: 5px 8px;
+    padding: 8px 10px;
 }
 
-/* header button.burguer-menu i {} */
+header button.burguer-menu i {
+    font-size: 1.3rem;
+}

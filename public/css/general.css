@@ -1,6 +1,11 @@
 * {
-    font-family: var(--tipografia);
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--tipografia);
 }
 
 a {
@@ -14,9 +19,9 @@ ul {
 }
 
 h2 {
-    text-align: center;
     color: var(--gris-oscuro);
-    padding: 10px;
+    padding: 10px 0px;
+    width: 100%;
 }
 
 section {
@@ -29,11 +34,11 @@ article {
     margin-bottom: 10px;
 }
 
-img.producto {}
+/* img.producto {} */
 
 .contenedor-info {
     border-top: solid 1px #ebebeb;
-    padding: 0pc 15px;
+    padding: 0px 15px;
     background-color: white;
 }
 
@@ -59,9 +64,113 @@ img.producto {}
 .descuentos {
     color: var(--verde);
     font-size: 16px;
+    padding-bottom: 15px;
 }
 
 .descripciones {
     font-size: 16px;
     padding-bottom: 10px;
+}
+
+/* ---------- MEDIA QUERIES ---------- */
+
+/* SMARTPHONES */
+
+@media (max-width: 360px) {
+    /* HEADER */
+
+    header form.contenedor-buscador input {
+        width: 60%;
+    }
+
+    .contenedor-menu {
+        display: none;
+    }
+
+    .contenedor-opciones {
+        display: none;
+    }
+
+    /* MAIN */
+
+    .descripciones {
+        display: none;
+    }
+}
+
+/* TABLETS */
+
+@media (min-width:361px) {
+
+    /* HEADER */
+
+    /* LOGO */
+
+    header figure {
+        width: 200px;
+    }
+
+    header figure img {
+        width: 70%;
+        padding-bottom: 10px;
+    }
+
+    /* BUSCADOR */
+
+    header form.contenedor-buscador {
+        display: inline;
+    }
+
+    header form.contenedor-buscador input {
+        width: 32%;
+    }
+
+    .contenedor-burger-menu {
+        display: none;
+    }
+
+    /* MAIN*/
+
+    article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+}
+
+/* DESKTOP */
+
+@media (min-width:769px) {
+
+     /* HEADER */
+
+    /* LOGO */
+
+    header figure {
+        width: 200px;
+    }
+
+    header figure img {
+        width: 70%;
+        padding-bottom: 10px;
+    }
+
+    /* BUSCADOR */
+
+    header form.contenedor-buscador {
+        display: inline;
+    }
+
+    header form.contenedor-buscador input {
+        width: 32%;
+    }
+
+    .contenedor-burger-menu {
+        display: none;
+    }
+
+    /* MAIN*/
+
+    article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
 }

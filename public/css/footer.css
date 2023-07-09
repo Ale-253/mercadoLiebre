@@ -1,12 +1,12 @@
-footer {
+footer {}
+
+footer .contenedor-footer {
     text-align: center;
+    width: 90%;
+    margin: 0 auto;
 }
 
-/* footer .contenedor-footer {} */
-
-footer .texto-footer {
-    margin-bottom: 35px;
-}
+footer .texto-footer {padding-top: 25px;}
 
 footer .texto-footer i {
     font-size: 2em;
@@ -21,11 +21,12 @@ footer .texto-footer h5 {
 
 footer .texto-footer p {
     color: var(--gris-oscuro);
-    font-size: 15px;
+    font-size: 12px;
 }
 
-footer .contenedor-footer p.copy {
+p.copy {
     color: var(--gris-oscuro);
     font-size: 12px;
     text-align: left;
+    padding: 20px 10px;
 }
