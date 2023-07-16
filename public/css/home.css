@@ -1,15 +1,70 @@
-main.home {
-    width: 100;
-}
+main.home {}
 
 /* BANNER */
 
- /* main.home figure {}  */
+main.home figure {}
+
+/* SECCIONES */
+
+.contenedor-precio {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 1%;
+}
 
 /* ULTIMA VISITA*/
 
-/*  .contenedor-ultima-visita {}  */
+.contenedor-ultima-visita {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.contenedor-ultima-visita h2 {}
+
+.contenedor-ultima-visita article {}
+
+
 
  /* OFERTAS */ 
 
-/* .contenedor-ofertas {}  */
+.contenedor-ofertas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+/* ---------- MEDIA QUERIES ---------- */
+
+/* SMARTPHONES */
+
+@media (max-width: 360px) {
+    /* MAIN */
+
+    .descripciones {
+        display: none;
+    }
+}
+
+/* TABLETS */
+
+@media (min-width:361px) {
+    /* MAIN*/
+
+    article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 49%;
+    }
+
+}
+
+/* DESKTOP */
+
+@media (min-width:769px) {
+    /* MAIN*/
+
+    article {
+       width: 23%;
+    }
+}
