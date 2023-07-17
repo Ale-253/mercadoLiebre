@@ -84,23 +84,54 @@
         </div>
 
     </header>
-    <main>
+    <main class="login">
         <form action="" method="POST" class="forms">
-            <p>
-                <label></label>
-                <input type="text" name="nombreUsuario" placeholder="Nombre de usuari@" required>
-            </p>
+            <h2>Login</h2>
 
-            <p>
+            <div class="contenedor-input user">
+                <label for="nombreUsuario"></label>
+                <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Nombre de usuari@" required>
+            </div>
+
+            <div class="contenedor-input password">
                 <label for="password"></label>
                 <input type="password" name="password" id="password" placeholder="Contraseña" required>
-            </p>
+            </div>
 
-            <p>
-                <button type="submit"><a href="/">Ingresá</a></button>
-            </p>
+            <button type="submit"><a href="/">Ingresá</a></button>
+
         </form>
     </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="texto-footer">
+                <i class="fa-solid fa-credit-card icon"></i>
+                <h5>Pagá con tarjeta o en efectivo</h5>
+                <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y
+                    siempre es
+                    seguro!</p>
+            </div>
+
+            <div class="texto-footer">
+                <i class="fa-solid fa-gift icon"></i>
+                <h5>Envío gratis desde $2.500</h5>
+                <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un
+                    beneficio de
+                    Mercado Puntos.</p>
+            </div>
+
+            <div class="texto-footer">
+                <i class="fa-solid fa-user-shield icon"></i>
+                <h5>Seguridad, de principio a fin</h5>
+                <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre no hay nada que no puedas hacer, porque estás siempre
+                    protegid@
+                </p>
+            </div>
+        </div>
+        <p class="copy">
+            Copyright © 1999-2020 MercadoLiebre S.R.L
+        </p><!-- © con alt + 0169 -->
+    </footer>
 </body>
 
 </html>
