@@ -51,7 +51,9 @@ header .contenedor-logo img {
     background-color: transparent;
 }
 
-.buscador .contenedor-buscador button i {}
+.buscador .contenedor-buscador button i {
+    color: var(--gris-oscuro);
+}
 
 /* COMPRA */
 

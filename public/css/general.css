@@ -9,7 +9,7 @@ body {
 }
 
 a {
-    color: rgb(58, 58, 58);
+    color: #000;
     text-decoration: none;
 }
 
@@ -22,6 +22,7 @@ h2 {
     color: var(--gris-oscuro);
     padding: 10px 0px;
     width: 100%;
+    text-align: center;
 }
 
 section {
