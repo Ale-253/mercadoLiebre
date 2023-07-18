@@ -45,3 +45,40 @@
 .login form button:hover {
     box-shadow: 0px 0px 5px grey;
 }
+
+/* ---------- MEDIA QUERIES ---------- */
+
+/* SMARTPHONES */
+
+@media (max-width: 360px) {}
+
+/* TABLETS */
+
+@media (min-width:361px) {
+    
+    .login form .contenedor-input {
+        padding-top: 2%;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .login .btn {
+        text-align: center;
+    }
+
+}
+
+/* DESKTOP */
+
+@media (min-width:769px) {
+
+    .login form .contenedor-input {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .login .btn {
+        text-align: center;
+    }
+}
+

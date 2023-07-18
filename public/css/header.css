@@ -72,6 +72,8 @@ header .contenedor-compra span.text {
 
 /* MENU */
 
+header .container-menu {}
+
 header .contenedor-menu {}
 
 header .contenedor-menu ul {
@@ -83,11 +85,11 @@ header .contenedor-menu ul {
 
 header .contenedor-menu ul li {}
 
-header .contenedor-menu ul li a {} 
+header .contenedor-menu ul li a {}
 
 /* OPCIONES */
 
-header .contenedor-opciones {} 
+header .contenedor-opciones {}
 
 header .contenedor-opciones ul {
     padding: 0;
@@ -151,7 +153,7 @@ header button.burguer-menu i {
         align-items: center;
     }
 
-    .container-logo{
+    .container-logo {
         width: 55%;
         display: flex;
         align-items: center;
@@ -159,9 +161,7 @@ header button.burguer-menu i {
 
     /* LOGO */
 
-    header .contenedor-logo {
-        
-    }
+    header .contenedor-logo {}
 
     header .contenedor-logo img {
         width: 200px;
@@ -171,9 +171,9 @@ header button.burguer-menu i {
     /* BUSCADOR */
 
     .buscador {
-    padding: 0;
-    margin-left: 20px;
-}
+        padding: 0;
+        margin-left: 20px;
+    }
 
     header form.contenedor-buscador {
         display: inline;
@@ -185,28 +185,27 @@ header button.burguer-menu i {
         display: none;
     }
 
-     /* COMPRA */
+    /* COMPRA */
 
-     .contenedor-compra{
+    .contenedor-compra {
         width: 45%;
-     }
+    }
 
-     /* MENU Y OPCIONES */
+    /* MENU Y OPCIONES */
 
-     .container-menu {
+    .container-menu {
         display: flex;
         justify-content: space-between;
         padding-top: 2%;
-     }
+    }
 
-     .contenedor-menu {
-     }
+    .contenedor-menu {}
 
-     .container-menu ul li {
+    .container-menu ul li {
         margin-right: 20px;
-     }
+    }
 
-     header .contenedor-opciones ul {
+    header .contenedor-opciones ul {
         display: flex;
     }
 }
@@ -217,19 +216,52 @@ header button.burguer-menu i {
 
     /* HEADER */
 
+    .container {}
+
     /* LOGO */
 
-    header .contenedor-logo {}
+    header .contenedor-logo {
+        width: 50%;
+    }
 
     header .contenedor-logo img {
-    width: 300px;
-}
+        width: 250px;
+    }
 
     /* BUSCADOR */
 
-    header form.contenedor-buscador {}
+    header form.contenedor-buscador {
+        
+    }
 
-    header form.contenedor-buscador input {}
+    header form.contenedor-buscador input {
+        font-size: 16px;
+    }
 
     .contenedor-burger-menu {}
+
+    /* COMPRA */
+
+    .contenedor-compra {}
+
+    header .contenedor-compra i {
+        font-size: 17px;
+        padding-right: 1%;
+    }
+
+    header .contenedor-compra span.text {
+        font-size: 17px;
+    }
+
+    /* MENU Y OPCIONES */
+
+    header .container-menu {}
+
+    header .contenedor-opciones ul li a {
+        font-size: 17px;
+    }
+
+    header .contenedor-menu ul li a {
+        font-size: 17px;
+    }
 }

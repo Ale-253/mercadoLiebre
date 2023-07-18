@@ -104,5 +104,34 @@
 
 /* DESKTOP */
 
-@media (min-width:769px) {}
+@media (min-width:769px) {
+
+    .registro form .contenedor-input {
+        margin: 0 auto;
+    }
+
+    .registro form .contenedor-input input {
+        width: 90%;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .registro form .contenedor-input label {
+        font-size: 20px;
+    }
+
+    .registro form .perfil .contenedor-radio {
+        width: 30%;
+        font-size: 16px;
+    }
+
+    .registro form .interes .contenedor-check {
+        padding-top: 1%;
+    }
+
+    .registro form button {
+        margin-top: 3%;
+        font-size: 16px;
+    }
+}
 
