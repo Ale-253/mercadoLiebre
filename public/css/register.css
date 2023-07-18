@@ -82,3 +82,27 @@
 .registro form button:hover {
     box-shadow: 0px 0px 5px grey;
 }
+
+/* ---------- MEDIA QUERIES ---------- */
+
+/* SMARTPHONES */
+
+@media (max-width: 360px) {}
+
+/* TABLETS */
+
+@media (min-width:361px) {
+    .registro form .contenedor-input {
+        padding: 1%;
+    }
+
+    .registro form .perfil .contenedor-radio {
+        width: 50%;
+        margin-left: 2%;
+    }
+}
+
+/* DESKTOP */
+
+@media (min-width:769px) {}
+

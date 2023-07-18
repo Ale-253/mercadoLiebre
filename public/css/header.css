@@ -196,6 +196,7 @@ header button.burguer-menu i {
      .container-menu {
         display: flex;
         justify-content: space-between;
+        padding-top: 2%;
      }
 
      .contenedor-menu {
