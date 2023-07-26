@@ -6,7 +6,9 @@ footer .contenedor-footer {
     margin: 0 auto;
 }
 
-footer .texto-footer {padding-top: 25px;}
+footer .texto-footer {
+    padding-top: 25px;
+}
 
 footer .texto-footer i {
     font-size: 2em;
@@ -29,4 +31,18 @@ p.copy {
     font-size: 12px;
     text-align: left;
     padding: 20px 10px;
+}
+
+/* ----- MEDIA QUERIES ----- */
+
+/* DESKTOP */
+
+@media (min-width:769px) {
+    .contenedor-footer {
+        display: flex;
+    }
+
+    .texto-footer i:hover {
+        color: #0022AA;
+    }
 }

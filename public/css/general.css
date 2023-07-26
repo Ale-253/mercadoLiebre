@@ -35,7 +35,10 @@ article {
     margin-bottom: 10px;
 }
 
-/* img.producto {} */
+article:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
 
 .contenedor-info {
     display: flex;
@@ -58,6 +61,11 @@ article {
     border-radius: 50%;
     width: 40px;
     height: 40px;
+}
+
+.circulo:hover i {
+    transform: rotate(-90deg);
+    transition: transform 0.5s;
 }
 
 .precios {
